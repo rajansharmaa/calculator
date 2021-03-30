@@ -1,0 +1,179 @@
+/* save as cal.css*/
+.header {
+	width: 300px;
+	padding: 0px 10px;
+	margin: 0px auto;
+}
+pre{
+	margin: 0px;
+	font-size: 12px;
+}
+h2{
+	color: #89a;
+	width: 300px;
+	text-align: center;
+}
+table{
+	margin: 0px 5px 5px 5px;
+}
+caption{
+	color: black;
+	text-shadow: 1px 1px gray;
+	font-weight: 600;
+}
+button{
+	width: 52px;
+	height: 52px;
+	text-align: center;
+	font-size: 22px;
+	background-color: gray;
+	color: whitesmoke;
+	border: 2px #b9b outset;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+.top{
+	height: 30px;
+	background-color: #989;
+	box-shadow: inset 5px 5px 5px #a89, inset -5px -5px 5px #867;
+	border-radius: 4px;
+	border: 1px #cab outset;
+	color: white;
+	text-shadow: 2px 2px 20px;
+	font-size: 18px;
+}
+#c{
+	height: 64px;
+	color: red;
+}
+button:active{
+	background-color: lightgray;
+	box-shadow: none;
+	padding-top: 4px;
+	outline: 1px solid black;
+	border: 3px #b9b inset;
+}
+.top:hover{
+	background-color: #bab;
+	box-shadow: inset 5px 5px 5px #cab, inset -5px -5px 5px #a98;
+}
+button:hover{
+	background-color: #a9a;
+}
+.top:active{
+	background-color: #dbc;
+	padding-top: 4px;
+	outline: 1px solid #989;
+	border: 3px #b9b inset;
+}
+
+#display-container{
+	border: 3px inset;
+	margin-bottom: 10px;
+}
+#h1, #display1{
+    width: 266px;
+	height: 25px;
+	padding: 2px;
+	padding-top: 4px;
+	background-color: lightgray;
+	font-size: 20px;
+	font-family: serif;
+	font-weight: bold;
+	text-align: center;
+	overflow: hidden;
+	color: white;
+	text-shadow: 2px 2px 1px gray;
+}
+#display{
+	font-size: 16px;
+}
+span{
+	color: #678;
+}
+ul{
+	width: 260px;
+}
+li{
+	display: inline;
+	background-color: green;
+	padding: 0px 0px;
+	font-size: 20px;
+}
+.div{
+	border: 5px #6bc ridge;
+	border-radius: 10px;
+	margin: 0px 5px 5px 5px;
+	padding-top: 0px;
+	width: 285px;
+	box-shadow: -10px 10px 10px silver;
+	background-color: #689;
+	font-size: 11px;
+	color: white;
+}
+.w{
+	box-shadow: -10px 10px 10px silver;
+	border: 5px #6bc groove;
+	margin: 0px 5px 5px 5px;
+	border-radius: 10px;
+	padding-top: 0px;
+	font-size: 11px;
+	cursor: pointer;
+	width: 285px;
+	color: white;
+}
+#theme1{
+	border: 5px #6bc ridge;
+	background-color: #689;
+}
+
+#theme2{
+	border: 5px gray outset;
+	background-color: gray;
+	color: black;
+}
+
+#theme3{
+	border: 5px #8a9 double;
+	background-color: #8a9;
+}
+
+#theme4{
+	border: 5px #ddd outset;
+	background-color: #aaa;
+	
+}
+.f{
+	box-shadow: -10px 10px 10px silver;
+	border: 10px #ddd inset;
+	border-radius: 5px;
+	margin: 20px 0px;
+	padding: 10px;
+	width: 250px;
+}
+
+#theme1:hover,#theme2:hover,#theme3:hover,#theme4:hover{
+	box-shadow: -10px 10px 20px gray;
+}
+#theme1:active,#theme2:active,#theme3:active,#theme4:active{
+	font-size: 10px;
+	margin-right: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
